@@ -3,25 +3,25 @@
 @font-face
 {
 	font-family: Tungsten-Bold;
-	src: url(Tungsten-Bold.otf);
+	src: url(http://parisatelier.org/fonts/Tungsten-Bold.otf);
 }
 
 @font-face
 {
 	font-family: Tungsten-Black;
-	src: url(Tungsten-Black.otf);
+	src: url(http://parisatelier.org/fonts/Tungsten-Black.otf);
 }
 
 @font-face
 {
 	font-family: Tungsten-Semibold;
-	src: url(Tungsten-Semibold.otf);
+	src: url(http://parisatelier.org/fonts/Tungsten-Semibold.otf);
 }
 
 @font-face
 {
 	font-family: Tungsten-Medium;
-	src: url(Tungsten-Medium.otf);
+	src: url(http://parisatelier.org/fonts/Tungsten-Medium.otf);
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 }
 
 #container {
-	width:1000px;
+	width:1100px;
 	margin: 10px auto;
 	text-align:center;
 }
@@ -99,7 +99,10 @@ body {
 	margin-top:100px;
 }
 
-#content {}
+#content {
+	top: 10px;
+	position: relative;
+}
 
 #bottom {
 	bottom:10px;
@@ -121,45 +124,46 @@ body {
 
 #video1{
 	left:30px;
-	width:300px;
-	height:250px;
 	z-index:0;
 	float:left;
-	background-color:#3CF;
+	/*background-color:#3CF;*/
 	position:relative;
+	top:30px;
 }
 
 #video2{
-	width:300px;
-	height:250px;
 	z-index:0;
 	float:right;
-	background-color:#3F9;
+	/*background-color:#3F9;*/
 	position:relative;
-	right:170px;
+	right:40px;
 	top:-150px;
 }
 
+#video1, #video2{
+	width:450px;
+	height:253px;
+}
+
 #video3{
-	width:300px;
-	height:500px;
+	width:400px;
+	height:360px;
 	z-index:-1;
 	float:left;
-	margin-left:-100px;
+	left:110px;
 	position:relative;
-	background-color:#939;
-	
+	/*background-color:#939;*/	
 }
 
 #video4{
-	margin-right:30px;
-	width:400px;
-	height:250px;
+	right:10px;
+	width:420px;
+	height:315px;
 	z-index:-1;
 	float:right;
-	background-color:#FF6;
+	/*background-color:#FF6;*/
 	position:relative;
-	top:-180px;
+	top:-150px;
 }
 
 a, a:link, a:visited{

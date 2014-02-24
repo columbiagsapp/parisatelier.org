@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+@font-face
+{
+	font-family: Tungsten-Bold;
+	src: url(Tungsten-Bold.otf);
+}
+
+@font-face
+{
+	font-family: Tungsten-Black;
+	src: url(Tungsten-Black.otf);
+}
+
+@font-face
+{
+	font-family: Tungsten-Semibold;
+	src: url(Tungsten-Semibold.otf);
+}
+
+@font-face
+{
+	font-family: Tungsten-Medium;
+	src: url(Tungsten-Medium.otf);
+}
+
+body {
+	background-color:#000000;
+	color:#ffffff;
+	font-family:Tungsten-Semibold, Verdana, Geneva, sans-serif;
+}
+
+#container {
+	width:1000px;
+	margin: 10px auto;
+	text-align:center;
+}
+
+#top {}
+
+#top1 {
+	float:left;
+	font-weight:bold;
+	font-size:26px;
+	color:#fff;
+	letter-spacing:3px;
+	width:150px
+}
+
+#top2 {
+	float:left;
+	font-size:22px;
+	color:#fff;
+	letter-spacing:3px;
+	width:200px;
+	font-weight:500;
+}
+
+#top3 {
+	float:left;
+	color:#fff;
+	font-size:22px;
+	width:150px;
+	letter-spacing:3px;
+	font-weight:500;
+}
+
+#top4 {
+	width: 110px;
+	height: 75px;
+	-webkit-border-radius: 54px;
+	-moz-border-radius: 35px;
+	background-color: #ffffff;
+	color: #000000;
+	float: left;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-top: 30px;
+	right: -350px;
+	position: relative;
+	letter-spacing:4px;
+	font-weight:600;
+}
+
+#top1, #top2, #top3{
+	text-align:left;
+	text-transform:uppercase;
+}
+
+#top3, #top4{
+	display:none;
+}
+
+#sidebar {
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	float:right;	
+	margin-top:100px;
+}
+
+#content {}
+
+#bottom {
+	bottom:10px;
+	text-align:left;
+	margin-top:20px;
+}
+
+.clear {
+	clear:both;
+	height:1px;
+}
+
+.side {
+	margin: 0 10px;
+	right: 10px;
+	position: relative;
+	top: -240px;
+}
+
+#video1{
+	left:30px;
+	width:300px;
+	height:250px;
+	z-index:0;
+	float:left;
+	background-color:#3CF;
+	position:relative;
+}
+
+#video2{
+	width:300px;
+	height:250px;
+	z-index:0;
+	float:right;
+	background-color:#3F9;
+	position:relative;
+	right:170px;
+	top:-150px;
+}
+
+#video3{
+	width:300px;
+	height:500px;
+	z-index:-1;
+	float:left;
+	margin-left:-100px;
+	position:relative;
+	background-color:#939;
+	
+}
+
+#video4{
+	margin-right:30px;
+	width:400px;
+	height:250px;
+	z-index:-1;
+	float:right;
+	background-color:#FF6;
+	position:relative;
+	top:-180px;
+}
+
+a, a:link, a:visited{
+	text-decoration:none;
+	color:#fff;
+}
+
+a:hover{
+	text-decoration:underline;
+}

@@ -3,25 +3,25 @@
 @font-face
 {
 	font-family: Tungsten-Bold;
-	src: url(http://parisatelier.org/fonts/Tungsten-Bold.otf);
+	src: url(/fonts/Tungsten-Bold.otf);
 }
 
 @font-face
 {
 	font-family: Tungsten-Black;
-	src: url(http://parisatelier.org/fonts/Tungsten-Black.otf);
+	src: url(/fonts/Tungsten-Black.otf);
 }
 
 @font-face
 {
 	font-family: Tungsten-Semibold;
-	src: url(http://parisatelier.org/fonts/Tungsten-Semibold.otf);
+	src: url(/fonts/Tungsten-Semibold.otf);
 }
 
 @font-face
 {
 	font-family: Tungsten-Medium;
-	src: url(http://parisatelier.org/fonts/Tungsten-Medium.otf);
+	src: url(/fonts/Tungsten-Medium.otf);
 }
 
 body {
@@ -126,7 +126,6 @@ body {
 	left:30px;
 	z-index:0;
 	float:left;
-	/*background-color:#3CF;*/
 	position:relative;
 	top:30px;
 }
@@ -134,7 +133,6 @@ body {
 #video2{
 	z-index:0;
 	float:right;
-	/*background-color:#3F9;*/
 	position:relative;
 	right:40px;
 	top:-150px;
@@ -146,24 +144,24 @@ body {
 }
 
 #video3{
-	width:400px;
-	height:360px;
 	z-index:-1;
 	float:left;
 	left:110px;
 	position:relative;
-	/*background-color:#939;*/	
+	top:25px;
 }
 
 #video4{
 	right:10px;
-	width:420px;
-	height:315px;
 	z-index:-1;
 	float:right;
-	/*background-color:#FF6;*/
 	position:relative;
 	top:-150px;
+}
+
+#video3, #video4{
+	width:420px;
+	height:315px;
 }
 
 a, a:link, a:visited{

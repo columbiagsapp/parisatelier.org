@@ -3,25 +3,25 @@
 @font-face
 {
 	font-family: Tungsten-Bold;
-	src: url(/fonts/Tungsten-Bold.otf);
+	src: url(fonts/Tungsten-Bold.otf);
 }
 
 @font-face
 {
 	font-family: Tungsten-Black;
-	src: url(/fonts/Tungsten-Black.otf);
+	src: url(fonts/Tungsten-Black.otf);
 }
 
 @font-face
 {
 	font-family: Tungsten-Semibold;
-	src: url(/fonts/Tungsten-Semibold.otf);
+	src: url(fonts/Tungsten-Semibold.otf);
 }
 
 @font-face
 {
 	font-family: Tungsten-Medium;
-	src: url(/fonts/Tungsten-Medium.otf);
+	src: url(fonts/Tungsten-Medium.otf);
 }
 
 body {

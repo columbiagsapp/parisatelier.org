@@ -28,12 +28,14 @@ body {
 	background-color:#000000;
 	color:#ffffff;
 	font-family:Tungsten-Semibold, Verdana, Geneva, sans-serif;
+
 }
 
 #container {
-	width:1100px;
-	margin: 10px auto;
+	width:95%;
+	margin: 30px auto;
 	text-align:center;
+	position:relative;
 }
 
 #top {}
@@ -44,7 +46,8 @@ body {
 	font-size:26px;
 	color:#fff;
 	letter-spacing:3px;
-	width:150px
+	width:150px;
+	line-height: 26px;
 }
 
 #top2 {
@@ -54,6 +57,7 @@ body {
 	letter-spacing:3px;
 	width:200px;
 	font-weight:500;
+	line-height: 26px;
 }
 
 #top3 {
@@ -92,22 +96,21 @@ body {
 }
 
 #sidebar {
-	transform:rotate(90deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
-	-webkit-transform:rotate(90deg); /* Safari and Chrome */
-	float:right;	
-	margin-top:100px;
 }
 
 #content {
-	top: 10px;
 	position: relative;
+	height:80%;
+	width:100%;
 }
 
 #bottom {
-	bottom:10px;
+	bottom:0;
 	text-align:left;
 	margin-top:20px;
+	position:absolute;
+	display: none;
+	z-index:10;
 }
 
 .clear {
@@ -115,27 +118,39 @@ body {
 	height:1px;
 }
 
-.side {
-	margin: 0 10px;
-	right: 10px;
-	position: relative;
-	top: -240px;
+#gsapp_logo,
+#cu_logo{
+	position:fixed;	
+	right:50px;
 }
 
-#video1{
-	left:30px;
-	z-index:0;
-	float:left;
-	position:relative;
+#gsapp_logo{
 	top:30px;
 }
 
+#cu_logo{
+	top:130px;
+	margin-right:-7px;
+}
+
+.video{
+	-moz-box-shadow: 0 0 2px 3px black;
+  	-webkit-box-shadow: 0 0 2px 3px black;
+	box-shadow: 0 0 2px 3px black;
+}
+
+#video1{
+	left:5%;
+	z-index:4;
+	position:absolute;
+	top: 7%;
+}
+
 #video2{
-	z-index:0;
-	float:right;
-	position:relative;
-	right:40px;
-	top:-150px;
+	z-index:3;
+	position:absolute;
+	right:15%;
+	top: 3%;
 }
 
 #video1, #video2{
@@ -144,19 +159,18 @@ body {
 }
 
 #video3{
-	z-index:-1;
+	z-index:2;
 	float:left;
-	left:110px;
-	position:relative;
-	top:25px;
+	left:20%;
+	position:absolute;
+	bottom:5%;
 }
 
 #video4{
-	right:10px;
-	z-index:-1;
-	float:right;
-	position:relative;
-	top:-150px;
+	right:3%;
+	z-index:1;
+	position:absolute;
+	bottom:2%;
 }
 
 #video3, #video4{

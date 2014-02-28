@@ -74,6 +74,7 @@
             var atelier_w = 388,
                 p_w = 87;
             var container_vertical_margin = 30;
+            var zTop = 10; //current highest z-index value
 
 
             function sizeContainer(){
@@ -98,9 +99,7 @@
 
                 //bring video to front when user hovers over it
                 $('.video').hover(function(){
-                    $(this).css('zIndex', 100);
-                }, function(){
-                    $(this).css('zIndex', '');
+                    $(this).css('zIndex', zTop++);
                 });
 
                 $(window).resize(resizeBar);

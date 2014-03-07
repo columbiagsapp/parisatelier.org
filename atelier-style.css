@@ -141,25 +141,25 @@ body {
 
 #video1{
 	left:5%;
-	z-index:4;
+	z-index:5;
 	position:absolute;
 	top: 7%;
 }
 
 #video2{
-	z-index:3;
+	z-index:4;
 	position:absolute;
 	right:15%;
 	top: 3%;
 }
 
-#video1, #video2{
+#video1, #video2, #video5{
 	width:450px;
 	height:253px;
 }
 
 #video3{
-	z-index:2;
+	z-index:3;
 	float:left;
 	left:20%;
 	position:absolute;
@@ -168,7 +168,7 @@ body {
 
 #video4{
 	right:3%;
-	z-index:1;
+	z-index:2;
 	position:absolute;
 	bottom:2%;
 }
@@ -176,6 +176,13 @@ body {
 #video3, #video4{
 	width:420px;
 	height:315px;
+}
+
+#video5{
+	left:45%;
+	z-index:1;
+	position:absolute;
+	top: 45%;
 }
 
 a, a:link, a:visited{

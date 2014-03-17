@@ -201,13 +201,13 @@ a:hover{
 }
 
 .col1, .col2 {
-width: 120px;
+	width: 120px;
 }
 
 .col1{
-float: left;
+	float: left;
 }
 
 .col2 {
-float: right;
+	float: right;
 }

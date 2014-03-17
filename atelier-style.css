@@ -31,42 +31,48 @@ body {
 
 }
 
+img {
+	border:none;
+}
+
 #container {
 	width:95%;
 	margin: 30px auto;
 	text-align:center;
-	position:relative;
+	/*position:relative;*/
 }
 
 #top {}
 
 #top1 {
-	float:left;
-	font-weight:bold;
-	font-size:26px;
-	color:#fff;
-	letter-spacing:3px;
-	width:150px;
+	float: left;
+	font-weight: bold;
+	font-size: 26px;
+	color: #fff;
+	letter-spacing: 3px;
+	width: 350px;
 	line-height: 26px;
 }
 
 #top2 {
-	float:left;
-	font-size:22px;
-	color:#fff;
-	letter-spacing:3px;
-	width:200px;
-	font-weight:500;
+	float: left;
+	font-size: 22px;
+	color: #fff;
+	letter-spacing: 3px;
+	width: 500px;
+	font-weight: 500;
 	line-height: 26px;
+	margin-right: 100px;
 }
 
 #top3 {
-	float:left;
-	color:#fff;
-	font-size:22px;
-	width:150px;
-	letter-spacing:3px;
-	font-weight:500;
+	float: left;
+	color: #fff;
+	font-size: 22px;
+	width: 300px;
+	letter-spacing: 3px;
+	font-weight: 500;
+	margin-left: 100px;
 }
 
 #top4 {
@@ -80,10 +86,10 @@ body {
 	font-size: 35px;
 	text-transform: uppercase;
 	padding-top: 30px;
-	right: -350px;
+	right: -250px;
 	position: relative;
-	letter-spacing:4px;
-	font-weight:600;
+	letter-spacing: 4px;
+	font-weight: 600;
 }
 
 #top1, #top2, #top3{
@@ -192,4 +198,16 @@ a, a:link, a:visited{
 
 a:hover{
 	text-decoration:underline;
+}
+
+.col1, .col2 {
+width: 120px;
+}
+
+.col1{
+float: left;
+}
+
+.col2 {
+float: right;
 }
